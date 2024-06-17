@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic_Tac_Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="turn-container">
+        <h3>התור של</h3>
+        <div class="turn-box align">X</div>
+        <div class="turn-box align">O</div>
+        <div class="bg"></div>
+    </div>
+    <div class="main-grid">
+        <div class="box align" onclick="drowMain(0)" id="col0">0</div>
+        <div class="box align" id="col1" onclick="drowMain(1)">1</div>
+        <div class="box align" id="col2" onclick="drowMain(2)">2</div>
+        <div class="box align"  id="col3" onclick="drowMain(3)">3</div>
+        <div class="box align" id="col4" onclick="drowMain(4)">4</div>
+        <div class="box align" id="col5" onclick="drowMain(5)">5</div>
+        <div class="box align" id="col6" onclick="drowMain(6)">6</div>
+        <div class="box align" id="col7" onclick="drowMain(7)">7</div>
+        <div class="box align" id="col8" onclick="drowMain(8)">8</div>
+    </div>
+    <h2 id="results"></h2>
+    <button id="play-again" onclick="myRestart()">שחק שוב</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styli.css" rel="stylesheet">
+</head>
+<body>
+    <div class="contener">
+        <button class="reset" onclick="Difficulty(false)">קל</button><button class="reset" onclick="Difficulty(true)">קשה</button>
+        <br>
+        <button class="reset" onclick="reset()">איפוס</button>    
+        <h1 class="title" > <span class="text">JavaScript </span>ארבע בשורה נגד המחשב</h1>
+        <div class="board">  
+            <div class="row1">
+                <div class="boxs" id="row1_7" onclick="row1()" ></div>
+                <div class="boxs"  id="row1_6" onclick="row1()" ></div>
+                <div class="boxs"  id="row1_5" onclick="row1()"></div>
+                <div class="boxs" id="row1_4" onclick="row1()"></div>
+                <div class="boxs"  id="row1_3" onclick="row1()"></div>
+                <div class="boxs"  id="row1_2" onclick="row1()"></div>
+                <div class="boxs" id="row1_1" onclick="row1()" ></div>
+            </div>
+            <div class="row2">
+                <div class="boxs" id="row2_7" onclick="row2()"></div>
+                <div class="boxs"  id="row2_6" onclick="row2()" ></div>
+                <div class="boxs"  id="row2_5" onclick="row2()"></div>
+                <div class="boxs" id="row2_4" onclick="row2()"></div>
+                <div class="boxs"  id="row2_3" onclick="row2()"></div>
+                <div class="boxs"  id="row2_2" onclick="row2()"></div>
+                <div class="boxs" id="row2_1" onclick="row2()" ></div>
+            </div>
+            <div class="row3">
+                <div class="boxs" id="row3_7" onclick="row3()"></div>
+                <div class="boxs"  id="row3_6" onclick="row3()" ></div>
+                <div class="boxs"  id="row3_5" onclick="row3()"></div>
+                <div class="boxs" id="row3_4" onclick="row3()"></div>
+                <div class="boxs"  id="row3_3" onclick="row3()"></div>
+                <div class="boxs"  id="row3_2" onclick="row3()"></div>
+                <div class="boxs" id="row3_1" onclick="row3()" ></div>
+            </div>
+            <div class="row4">
+                <div class="boxs" id="row4_7" onclick="row4()"></div>
+                <div class="boxs"  id="row4_6" onclick="row4()" ></div>
+                <div class="boxs"  id="row4_5" onclick="row4()"></div>
+                <div class="boxs" id="row4_4" onclick="row4()"></div>
+                <div class="boxs"  id="row4_3" onclick="row4()"></div>
+                <div class="boxs"  id="row4_2" onclick="row4()"></div>
+                <div class="boxs" id="row4_1" onclick="row4()" ></div>
+            </div>
+            <div class="row5">
+                <div class="boxs" id="row5_7" onclick="row5()"></div>
+                <div class="boxs"  id="row5_6" onclick="row5()" ></div>
+                <div class="boxs"  id="row5_5" onclick="row5()"></div>
+                <div class="boxs" id="row5_4" onclick="row5()"></div>
+                <div class="boxs"  id="row5_3" onclick="row5()"></div>
+                <div class="boxs"  id="row5_2" onclick="row5()"></div>
+                <div class="boxs" id="row5_1" onclick="row5()" ></div>
+            </div>
+            <div class="row6">
+                <div class="boxs" id="row6_7" onclick="row6()"></div>
+                <div class="boxs"  id="row6_6" onclick="row6()" ></div>
+                <div class="boxs"  id="row6_5" onclick="row6()"></div>
+                <div class="boxs" id="row6_4" onclick="row6()"></div>
+                <div class="boxs"  id="row6_3" onclick="row6()"></div>
+                <div class="boxs"  id="row6_2" onclick="row6()"></div>
+                <div class="boxs" id="row6_1" onclick="row6()" ></div>
+            </div>
+            <div class="row7">
+                <div class="boxs" id="row7_7" onclick="row7()"></div>
+                <div class="boxs"  id="row7_6" onclick="row7()" ></div>
+                <div class="boxs"  id="row7_5" onclick="row7()"></div>
+                <div class="boxs" id="row7_4" onclick="row7()"></div>
+                <div class="boxs"  id="row7_3" onclick="row7()"></div>
+                <div class="boxs"  id="row7_2" onclick="row7()"></div>
+                <div class="boxs" id="row7_1" onclick="row7()" ></div>
+            </div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="data">
+        <label id="textUser">התור של השחקן הירוק</label><label id="dpAI"> || מצב המשחק הוא</label>
+        <br>
+        <label id="error"></label>
+
+    </div>
+
+    <script src="./Script.js"></script>
+</body>
+</html>
